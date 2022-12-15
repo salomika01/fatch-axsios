@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#wrapper{
+    display: flex;
+    flex-wrap: wrap;
+   
+
+}
+
+.card{
+    width: 350px;
+    padding: 20px;
+    border-radius: 6px;
+    background: gray;
+
+}
+
+.card > img {
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.card > h2 {
+    font-size: 24px;
+}
+
+.toast{
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    background: red;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
